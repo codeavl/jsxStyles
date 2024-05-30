@@ -147,3 +147,10 @@ export const [
 
 export const h25 = { height: '25%' };
 export const h75 = { height: '75% '};
+
+//
+//
+// font sizes
+export const [
+    fs2, fs4, fs6, fs8, fs10, fs12, fs14, fs16, fs18, fs20,
+] = numbers.map(n => ({ fontSize: n*2 }));
