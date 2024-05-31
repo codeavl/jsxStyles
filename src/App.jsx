@@ -1,14 +1,14 @@
-import * as $ from './styles/styles';
+import * as _ from './styles/styles';
 
 function App() {
 
   return (
     <div>
       <h1>Hello world</h1>
-      <div style={{...$.w250px, ...$.h200px, borderStyle: 'solid', ...$.b2, ...$.p6, ...$.br12}}>
-        <div style={{...$.w25, ...$.h25, borderStyle: 'solid', ...$.b3, ...$.bbr10}}>
-
+      <div style={{..._.w250px, ..._.h200px, borderStyle: 'solid', ..._.b2, ..._.p6, ..._.br12}}>
+        <div style={{..._.w25, ..._.h25, borderStyle: 'solid', ..._.b3, ..._.bbr10, ..._.borderGreen}}>
         </div>
+        <p style={{..._.fs20, ..._.textBlue, ..._.bgOrange}}>Lorem ipsum dolor sit amet.</p>
       </div>
     </div>
   )
