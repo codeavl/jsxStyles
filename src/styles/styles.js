@@ -185,3 +185,10 @@ export const h75 = { height: '75% '};
 export const [
     fs2, fs4, fs6, fs8, fs10, fs12, fs14, fs16, fs18, fs20,
 ] = NUMBERS.map(n => ({ fontSize: n*2 }));
+
+//
+//
+// font weights 
+export const [
+    fw100, fw200, fw300, fw400, fw500, fw600, fw700, fw800, fw900
+] = NUMBERS.map(n => ({ fontWeight: `${n*100}`}));
